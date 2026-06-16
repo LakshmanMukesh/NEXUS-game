@@ -15,11 +15,13 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cvnsp"]
-size = Vector2(12, 20)
+size = Vector2(12, 12)
 
 [node name="player" type="CharacterBody2D"]
 y_sort_enabled = true
 scale = Vector2(0.75, 0.75)
+collision_layer = 3
+collision_mask = 3
 script = ExtResource("1_cvnsp")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -28,5 +30,5 @@ position = Vector2(5, 0)
 sprite_frames = SubResource("SpriteFrames_fkybt")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(4, 2)
+position = Vector2(4, 6)
 shape = SubResource("RectangleShape2D_cvnsp")

@@ -1,0 +1,49 @@
+[gd_scene load_steps=6 format=3 uid="uid://du8pgmaisa71f"]
+
+[ext_resource type="Script" uid="uid://sa3j412l7jmc" path="res://Scripts/gorilla_frys.gd" id="1_qmch6"]
+[ext_resource type="Texture2D" uid="uid://bblstqpvxmh5d" path="res://NPC/Gorilla_Frys.png" id="2_fee6r"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ws7pw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_fee6r")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xixe5"]
+radius = 40.3347
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ws7pw"]
+size = Vector2(10.6667, 12.3333)
+
+[node name="Gorilla Frys" type="CharacterBody2D"]
+y_sort_enabled = true
+position = Vector2(40, 23)
+scale = Vector2(0.75, 0.75)
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_qmch6")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(73, 53)
+sprite_frames = SubResource("SpriteFrames_ws7pw")
+
+[node name="detection_area" type="Area2D" parent="."]
+light_mask = 2
+visibility_layer = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="detection_area"]
+position = Vector2(73, 61)
+shape = SubResource("CircleShape2D_xixe5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+y_sort_enabled = true
+position = Vector2(73.3333, 70.1667)
+shape = SubResource("RectangleShape2D_ws7pw")
+
+[connection signal="body_entered" from="detection_area" to="." method="_on_detection_area_body_entered"]
+[connection signal="body_exited" from="detection_area" to="." method="_on_detection_area_body_exited"]
