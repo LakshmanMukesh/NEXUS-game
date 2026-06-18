@@ -23,3 +23,8 @@ func player_movement(_delta):
 		velocity.x=0
 		velocity.y=0
 	move_and_slide()
+	
+func set_active(active):
+	set_physics_process(active)
+	set_process(active)
+	set_process_input(active)

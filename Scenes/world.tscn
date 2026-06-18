@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=4 uid="uid://bv1p48t34irmt"]
+[gd_scene load_steps=15 format=4 uid="uid://bv1p48t34irmt"]
 
 [ext_resource type="Texture2D" uid="uid://dparv0ep8arh2" path="res://assets/tilesets/grass.png" id="1_fo5ed"]
 [ext_resource type="Texture2D" uid="uid://fm3n8bwcf8yt" path="res://assets/tilesets/plains.png" id="2_5ukr8"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://x5yrevryatq2" path="res://assets/tilesets/fences.png" id="5_5v1tr"]
 [ext_resource type="PackedScene" uid="uid://t3ak5rytvgb5" path="res://Scenes/player.tscn" id="6_5ukr8"]
 [ext_resource type="PackedScene" uid="uid://du8pgmaisa71f" path="res://Scenes/gorilla_frys.tscn" id="7_o06y3"]
+[ext_resource type="PackedScene" uid="uid://bx6lu61j2121c" path="res://UI/dialogue_box.tscn" id="8_k7acu"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0fj1v"]
 texture = ExtResource("1_fo5ed")
@@ -160,11 +161,13 @@ tile_map_data = PackedByteArray("AAAiAA4AAgAAAAUAAAAzAAoAAgAAAAUAAAAiAAUAAgAAAAU
 tile_set = SubResource("TileSet_kn0ld")
 
 [node name="player" parent="." instance=ExtResource("6_5ukr8")]
-position = Vector2(31, 190)
+position = Vector2(50, 190)
 
 [node name="Camera2D" type="Camera2D" parent="player"]
-position = Vector2(7, 2)
+position = Vector2(-6.66669, 3.99998)
 zoom = Vector2(6, 6)
 
 [node name="Gorilla Frys" parent="." instance=ExtResource("7_o06y3")]
 position = Vector2(497, 388)
+
+[node name="DialogueBox" parent="Gorilla Frys" instance=ExtResource("8_k7acu")]
