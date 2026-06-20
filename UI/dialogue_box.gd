@@ -1,17 +1,19 @@
 extends CanvasLayer
 
-var FILE_PATH = "res://level1_dialogue.json"
+var FILE_PATH : String
 var dialogue = []
 var current_dialogue_id = -1
-var dialogue_active = false
+var dialogue_active  :bool = false
 @onready var player = $"../../player"
 
 func _ready():
 	$TextureRect.visible = false
 		
-func play():
+func play(file_path: String):
 	if dialogue_active:
 		return
+	FILE_PATH = file_path
+
 	turn_player_set_inactive()
 	dialogue_active = true
 	dialogue = load_dialogue()

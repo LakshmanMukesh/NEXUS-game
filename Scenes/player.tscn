@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://t3ak5rytvgb5"]
+[gd_scene format=3 uid="uid://t3ak5rytvgb5"]
 
 [ext_resource type="Script" uid="uid://4hg7rydadvux" path="res://Scripts/player.gd" id="1_cvnsp"]
 [ext_resource type="Texture2D" uid="uid://r5hjp7u4kwq6" path="res://player/character.png" id="2_6t5aa"]
@@ -9,7 +9,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("2_6t5aa")
 }],
-"loop": true,
+"loop": 1,
 "name": &"default",
 "speed": 5.0
 }]
@@ -17,18 +17,18 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cvnsp"]
 size = Vector2(12, 12)
 
-[node name="player" type="CharacterBody2D"]
+[node name="player" type="CharacterBody2D" unique_id=1942193911]
 y_sort_enabled = true
 scale = Vector2(0.75, 0.75)
-collision_layer = 3
-collision_mask = 3
+collision_layer = 11
+collision_mask = 11
 script = ExtResource("1_cvnsp")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=918927808]
 texture_filter = 1
 position = Vector2(5, 0)
 sprite_frames = SubResource("SpriteFrames_fkybt")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1544992284]
 position = Vector2(4, 6)
 shape = SubResource("RectangleShape2D_cvnsp")

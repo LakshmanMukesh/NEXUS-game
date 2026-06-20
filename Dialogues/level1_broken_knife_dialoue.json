@@ -1,0 +1,238 @@
+[
+  {
+	"name": "Gorilla Frys",
+	"text": "You got it?"
+  },
+  {
+	"name": "Player",
+	"text": "Yeah! But it doesn't even have a blade, just lights. It looks like a toy."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Careful, boy!"
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "That's a holographic knife!"
+  },
+  {
+	"name": "Player",
+	"text": "How are you even supposed to fight with it?"
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "I don't know. Ask the developers."
+  },
+  {
+	"name": "Player",
+	"text": "Who?"
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "..."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Never mind."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "This thing is broken. See it flickering?"
+  },
+  {
+	"name": "Player",
+	"text": "Yeah... So you're going to fix it, right?"
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Eh... If I fixed everything, why are you here?"
+  },
+  {
+	"name": "Player",
+	"text": "*Nods* Yeah... So I should...?"
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Exactly."
+  },
+  {
+	"name": "Player",
+	"text": "Alright! Teach me how to do it, Master!"
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "*Laughs* That's my BOY! *Pats your head*"
+  },
+  {
+	"name": "Player",
+	"text": "..."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "*Ahem* Anyway, as you might've guessed, this knife runs on code."
+  },
+  {
+	"name": "Player",
+	"text": "Oooohhhhhhh..."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Yup. Everything in this place runs on code."
+  },
+  {
+	"name": "Player",
+	"text": "Wait... Then what about you? You're not real?"
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Correct. Neither of us is real."
+  },
+  {
+	"name": "Player",
+	"text": "What-"
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "As I was saying... your first lesson is going to be..."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "VARIABLES!!!"
+  },
+  {
+	"name": "Player",
+	"text": "...Vari what?"
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "*Sighs* Variables."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Do you have a name?"
+  },
+  {
+	"name": "Player",
+	"text": "Yes, I do. Wait a minute..."
+  },
+  {
+	"name": "Player",
+	"text": "Why is my name 'Player'...?"
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Right! And that name points to YOU. Not your shoes, not your backpack... you!"
+  },
+  {
+	"name": "Player",
+	"text": "Uh... okay?"
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "That's basically what a variable is: a name that points to a value."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "That way, we can access the value easily instead of writing it over and over again."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Just like how your name makes it easy to identify you in a crowd."
+  },
+  {
+	"name": "Player",
+	"text": "Oh! This is easy!"
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "*Smirks* That's what the last one said."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Now he spends eternity trapped in the Realm of Bugs."
+  },
+  {
+	"name": "Player",
+	"text": "Like... real bugs?"
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "No, dummy. Code bugs."
+  },
+  {
+	"name": "Player",
+	"text": "Ohhh."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "For example: a = 5"
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Here, 'a' is the variable, and '5' is the value."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Every line of code in the universe has something called syntax."
+  },
+  {
+	"name": "Player",
+	"text": "Oh? Sounds fancy."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Sure does. Once you start coding, it'll sound like hell."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Syntax is basically grammar. It's the set of rules for writing code correctly."
+  },
+  {
+	"name": "Player",
+	"text": "So... I can't just type whatever I want, wherever I want?"
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Nope. In our example, the variable goes on the left..."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "...and the value goes on the right."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "The '=' in the middle is called the assignment operator. We'll talk more about that later."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Whenever you assign a value, the variable goes on the left and the value goes on the right."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Got it?"
+  },
+  {
+	"name": "Player",
+	"text": "Zzzzzz..."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "..."
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "OI! WAKE UP!"
+  },
+  {
+	"name": "Player",
+	"text": "*Jerks awake* Oh yeah! Variables are names!"
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "*Sighs*"
+  },
+  {
+	"name": "Gorilla Frys",
+	"text": "Alright. Time to try it yourself. Press K on your keyboard."
+  }
+]
