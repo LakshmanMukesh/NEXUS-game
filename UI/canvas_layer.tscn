@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://djlw343heo44p"]
+
+[ext_resource type="Script" uid="uid://2hfopumoiu46" path="res://UI/laptop_hud.gd" id="1_rp67v"]
+[ext_resource type="Texture2D" uid="uid://c33vqb71js4aq" path="res://assets/ui_assets/Laptop_hud_pic.png" id="2_bfbsr"]
+
+[node name="laptop_hud" type="CanvasLayer" unique_id=347500185]
+script = ExtResource("1_rp67v")
+
+[node name="laptop" type="TextureButton" parent="." unique_id=2097525382]
+anchors_preset = -1
+anchor_left = 0.89800006
+anchor_top = 0.046000004
+anchor_right = 0.9850001
+anchor_bottom = 0.19900002
+offset_left = 0.50390625
+offset_top = -0.8080025
+offset_right = 0.27990723
+offset_bottom = 0.04798889
+texture_normal = ExtResource("2_bfbsr")
+stretch_mode = 0
+
+[connection signal="pressed" from="laptop" to="." method="_on_laptop_pressed"]

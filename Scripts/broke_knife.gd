@@ -32,7 +32,7 @@ func _process(_delta):
 
 func pickup():
 	print("Knife picked up!")
-	var player = get_tree().current_scene.get_node("player")
+	var player = $"../../Player/player"
 	player.inventory.append("cyber_knife")
 	# TODO
 	# Give knife to player
